@@ -14,11 +14,13 @@
     "express-async-errors": "^3.1.1",
     "reflect-metadata": "^0.1.13",
     "twilio": "^4.9.0",
+    "uuid": "^9.0.0",
     "venom-bot": "^4.3.7"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
+    "@types/uuid": "^9.0.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.2"
   }
