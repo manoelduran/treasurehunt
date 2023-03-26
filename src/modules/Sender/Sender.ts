@@ -45,7 +45,3 @@ class Sender {
   }
 }
 export const sender = new Sender()
-// CRUD
-export function start(client: Whatsapp) {
-
-}
