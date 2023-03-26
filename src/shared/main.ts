@@ -3,7 +3,6 @@ import { createServer, Server as HttpServer } from "http";
 import 'express-async-errors';
 import 'reflect-metadata';
 import 'dotenv/config';
-import { sender } from './headless/sender';
 import { router } from './routes';
 
 
@@ -19,7 +18,6 @@ class Main {
     public async init(): Promise<void> {
         this.middlewares()
         this.routes()
-        sender
     }
     private middlewares() {
         this.app.set("trust proxy", 1);
@@ -28,7 +26,7 @@ class Main {
         this.app.use(express.static("public"));
 
     }
-   
+
     private routes(): void {
         this.app.use(router);
     }
