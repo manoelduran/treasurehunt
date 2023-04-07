@@ -4,6 +4,7 @@ import 'express-async-errors';
 import 'reflect-metadata';
 import 'dotenv/config';
 import { router } from './routes';
+import { sender } from '../modules/Sender/Sender';
 
 
 
@@ -18,6 +19,7 @@ class Main {
     public async init(): Promise<void> {
         this.middlewares()
         this.routes()
+        sender
     }
     private middlewares() {
         this.app.set("trust proxy", 1);

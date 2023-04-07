@@ -15,6 +15,7 @@ class Sender {
     let index = 0;
     this.client = client;
     await this.client.onMessage(async (message: Message) => {
+      console.log('message', message)
       if (message.chatId === process.env.chatId && message.body === 'Achei') {
         try {
           console.log('index', index)
