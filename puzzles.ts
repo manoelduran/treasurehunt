@@ -38,7 +38,7 @@ export const puzzles = [
     },
     {
         id: 9,
-        message: "Parabéns! Parece que você conseguiu resolver mais um enigma, então vamos para mais um: Eu estou... um que cheirinho bom, esses produtos da Glade são muito bons. (Propaganda não remunerada) Estou em um lugar que você enche de tralha e esquece de tirar, boa sorte! Caso você me encontre, digite `Achei`, para avançarmos no nosso desafio."
+        message: "Parabéns! Parece que você conseguiu resolver mais um enigma, então vamos para o ÚLTIMO: Eu estou... um que cheirinho bom, esses produtos da Glade são muito bons. *(Propaganda não remunerada)* Estou em um lugar que você enche de tralha e esquece de tirar, boa sorte! Caso você me encontre, digite `Achei`, para avançarmos no nosso desafio."
     },
     {
         id: 10,
