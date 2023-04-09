@@ -2,7 +2,7 @@
 export const puzzles = [
     {
         id: 0,
-        message: "Agora que você topou esse desafio, vamos começar a caça ao tesouro, seu primeiro enigma é: Eu estou em um local que você vai cansada e sai quase sempre renovada, mas cuidado com seus peitos, neste local, um gato esperto costuma ficar subindo em você, boa sorte! Caso você me encontre, digite `Achei`, para avançarmos no nosso desafio."
+        message: "Agora que você topou esse desafio, vamos começar a caça ao tesouro, seu primeiro enigma é: Eu estou em um local que você vai cansada e sai quase sempre renovada, mas cuidado para não ser pisoteada, neste local, um gato esperto costuma ficar subindo nas pessoas de madrugada, boa sorte! Caso você me encontre, digite `Achei`, para avançarmos no nosso desafio."
     },
     {
         id: 1,
